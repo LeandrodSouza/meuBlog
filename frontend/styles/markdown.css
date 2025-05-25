@@ -1,0 +1,21 @@
+/* frontend/styles/markdown.css */
+.markdown-content h1, .markdown-content h2, .markdown-content h3 {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.markdown-content p {
+  margin-bottom: 1em;
+  line-height: 1.7;
+}
+.markdown-content pre {
+  background-color: #f0f0f0; /* Cor de fundo para blocos de código */
+  padding: 1em;
+  border-radius: 0.3em;
+  overflow-x: auto;
+}
+.markdown-content code:not(pre > code) { /* Código inline */
+  background-color: #e0e0e0;
+  padding: 0.2em 0.4em;
+  border-radius: 0.3em;
+}
+/* Adicione mais estilos conforme necessário para listas, blockquotes, tabelas etc. */
