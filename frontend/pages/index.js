@@ -16,7 +16,7 @@ export default function HomePage({ posts }) {
 
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
-          <h1 className="text-5xl font-bold">Blog Dev</h1>
+          <h1 className="text-5xl font-bold">Bem-vindo ao Meu Blog</h1>
           <p className="text-xl text-gray-600 mt-2">Seu hub de conhecimento em desenvolvimento.</p>
         </header>
 
